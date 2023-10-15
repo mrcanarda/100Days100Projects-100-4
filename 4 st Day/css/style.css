@@ -1,0 +1,109 @@
+/* 
+font-family: 'Manrope', sans-serif; 
+*/
+
+/**************************
+******** HEAD ***********
+**************************/
+
+.right-paragraph {
+  position: relative;
+}
+
+.right-paragraph h1 {
+  font-size: 3.2rem;
+  margin-top: 4rem;
+  width: 85%;
+  line-height: 1.4;
+}
+
+.left-img img {
+  width: 60rem;
+  height: 50rem;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+/**************************
+******** PARAGRAPH ***********
+**************************/
+
+.right-paragraph p {
+  margin-top: 4rem;
+  font-size: 2.2rem;
+  color: hsla(220, 13%, 5%, 0.494);
+  width: 90%;
+  line-height: 1.6;
+}
+
+/**************************
+******** AVATAR IMG ***********
+**************************/
+
+.img-avatar img {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  margin-top: 4rem;
+}
+
+/**************************
+******** AVATAR PARAGRAPH ***********
+**************************/
+
+.avatar-header h1 {
+  font-size: 1.6rem;
+  margin-top: 4rem;
+  width: 100%;
+}
+
+.avatar-header p {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+
+.share-btn {
+  margin-top: 6rem;
+  margin-left: 16rem;
+}
+
+.share-btn img {
+  width: 2.4rem;
+}
+
+.share_page {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 18px;
+  background-color: hsl(214, 17%, 51%);
+  width: 32rem;
+  height: 6rem;
+}
+
+.share_page img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.share_page p {
+  font-size: 1.6rem;
+  margin-bottom: 3.6rem;
+  letter-spacing: 3px;
+  color: hsl(213, 23%, 66%);
+}
+
+.share-img {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.hidden {
+  display: none;
+}
